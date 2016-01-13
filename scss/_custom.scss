@@ -1,0 +1,237 @@
+@charset 'utf-8';
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: url(../img/skulls.png);
+}
+
+
+
+.top-bar,
+.top-bar ul {
+  background-color: #2980b9; 
+}
+
+.top-bar a {
+  color: white;
+  font-size: 14pt; 
+}
+
+.Welcome{
+	height: 20%;
+}
+
+//Contact---------------------------------------
+
+
+
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	margin-top: 10%;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  	font-weight: 500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: white;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+  	border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: white;
+	box-shadow: 0;
+	border: 3px solid #2980b9;
+	color: #3498db;
+	outline: none;
+  	padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#2980b9;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: white solid 4px;
+	cursor:pointer;
+	background-color: #2980b9;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+  	margin-top:-4px;
+  	font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #2980b9;
+}
+	
+.submit:hover {
+	color: #2980b9;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+//Contact END ----------------------------------
+
+//Resume ---------------------------------------
+
+#resume {
+	text-align: center;
+	padding-top: 5%;
+	padding-left: 20%;
+	padding-right: 20%;
+}    
+
+//Resume END -----------------------------------
+
+//Current Weather------------------------------
+.flex-video iframe, {
+    padding-top: 5%;
+   	padding-right: 20%;
+   	padding-left: 20%;
+   	padding-bottom: 35%;
+}
+//Current Weather END---------------------------
+
+//Weather Forecast------------------------------
+.weather {
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+
+//Weather Forecast END--------------------------
+//For sticky footer
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}   
+
+.footer {
+  background-color: #2980b9;
+  text-align: center;
+  color: white;
+  i {
+    font-size: 100px;
+  }
+}
+
+.footer {
+	h4 {
+    	color: white;
+    	font-size: 1rem;
+    	font-weight: 400;
+    	text-transform: uppercase;
+    	margin-top: 2.5rem;
+    	margin-bottom: 10px;
+  	}
+  	p {
+    	font-weight: 300; 
+    	font-size: .8rem;
+  	}
+}
+
+.footer {
+	.columns:nth-child(n+2) {
+    	border-left: 1px solid scale-color(#fff, $lightness: -30%);
+     	min-height: 280px;
+  	}
+}
+
+.footer-links {
+  	list-style-type: none;
+  	a {
+    	color: white;
+    	font-weight: 300;
+    	font-size: .8rem;
+  	}
+  	li {
+    	margin-top: .5rem;
+ 	}
+}
+    
